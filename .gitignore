@@ -1,0 +1,4 @@
+# Local files
+*.pyc
+__pycache__/
+.ipynb_checkpoints
