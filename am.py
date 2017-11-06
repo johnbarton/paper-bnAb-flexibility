@@ -19,6 +19,7 @@ p_FR_lethal  = 0.80                             # probability that a framework (
 p_FR_silent  = 0.                               # probability that a FR mutation is silent
 p_FR_affect  = 1. - p_FR_lethal - p_FR_silent   # probability that a FR mutation affects affinity
 
+Ec_start     = 0               # starting value for Ec
 nb_Ag        = 10              # number of antigens
 conc         = 1.18            # antigen concentration
 energy_scale = 0.07            # inverse temperature
@@ -64,7 +65,7 @@ class BCell:
         
         else:
             self.Ev = np.zeros(nb_Ag)
-            self.Ec = 0
+            self.Ec = Ec_start
 
             self.Ev     = o - np.exp(np.random.multivariate_normal(mumat, sigmat))
             selected_Ag = np.argmax(self.Ev)
