@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains data, code, and analysis for the simulations of affinity maturation presented in
+This repository contains data, code, and analysis for the simulations of molecular dynamics and affinity maturation presented in
 
 ### Role of framework mutations and antibody flexibility in the evolution of broadly neutralizing antibodies  
 
@@ -18,4 +18,6 @@ Victor Ovchinnikov<sup>1,\*</sup>, Joy E. Louveau<sup>2,\*</sup>, John P. Barton
 <sup>\*</sup> these authors contributed equally  
 <sup>#</sup> correspondence to arupc@mit.edu or marci@tammy.harvard.edu  
 
-See the iPython notebook `analysis.ipynb` for details. Running this notebook requires the Python packages [NumPy](http://www.numpy.org/), [pandas](http://pandas.pydata.org/), and [Matplotlib](https://matplotlib.org/).
+See the iPython notebook `analysis.ipynb` for details on the affinity maturation simulations. Running this notebook requires the Python packages [NumPy](http://www.numpy.org/), [pandas](http://pandas.pydata.org/), and [Matplotlib](https://matplotlib.org/).
+
+Matlab data and scripts for the molecular dynamics analysis are located in the `molecular_dynamics/` folder. See the `molecular_dynamics/README.md` for details.
