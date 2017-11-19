@@ -2,7 +2,7 @@
 
 This folder contains supporting material for MD simulation results presented in
 
-### Ovchinnikov, Louveau, Barton, Karplus and Chakraborty, submitted to eLife, 2017**
+### Ovchinnikov, Louveau, Barton, Karplus and Chakraborty, submitted to eLife, 2017
 
 Matlab data files and scripts for generating the figures are described below.
 
@@ -32,11 +32,11 @@ Matlab data files and scripts for generating the figures are described below.
 `malign-lc.mat` - sequence alignment file for heavy chains  
 `malign.mat` - sequence alignment file for heavy chains  
 
-`entropy-ca1.mat` - datafile that contains quasiharmonic entropies computed from MD ( 1st trajectory only )  
-`entropy-ca2.mat` - datafile that contains quasiharmonic entropies computed from MD ( 2nd trajectory only )  
-`entropy-ca3.mat` - datafile that contains quasiharmonic entropies computed from MD ( 3rd trajectory only )  
-`entropy-ca4.mat` - datafile that contains quasiharmonic entropies computed from MD ( 4th trajectory only )  
-`entropy-ca5.mat` - datafile that contains quasiharmonic entropies computed from MD ( 5th trajectory only )  
+`entropy-ca1.mat` - datafile that contains quasiharmonic entropies computed from MD (1st trajectory only)  
+`entropy-ca2.mat` - datafile that contains quasiharmonic entropies computed from MD (2nd trajectory only)  
+`entropy-ca3.mat` - datafile that contains quasiharmonic entropies computed from MD (3rd trajectory only)  
+`entropy-ca4.mat` - datafile that contains quasiharmonic entropies computed from MD (4th trajectory only)  
+`entropy-ca5.mat` - datafile that contains quasiharmonic entropies computed from MD (5th trajectory only)  
 
 `colours.m` - aux matlab file to define plot colors  
 `showdom.m` - auxiliary matlab file for plotting  
