@@ -47,13 +47,13 @@ class BCell:
 
     def __init__(self, nb = 512, **kwargs):
         """ Initialize clone-specific variables. 
-            nb          - population size
+            nb          - population size of the clone
             Ev          - binding energy for each Ag variable region
             Ec          - binding energy for the constant region
-            Q           - overlap parameter, proxy for rigidity (most 0 ---> 1 least flexible)
+            Q           - rigidity parameter (most 0 ---> 1 least flexible)
             nb_FR_mut   - number of accumulated FR mutations
             nb_CDR_mut  - number of accumulated CDR mutations
-            last_bound  - number of individuals that last bound each Ag 
+            last_bound  - number of individual B cells in the clone that last bound each Ag
             generation  - generation in the GC reaction
             history     - history of mutations, generation occurred, and effect on Q/Ec """
         
@@ -121,7 +121,6 @@ class BCell:
             self.Ec += o - np.exp(np.random.normal(mu, sigma))
         self.nb_CDR_mut += 1
         self.update_history()
-        
 
     def mutate_FR(self):
         """ Change in flexibility due to affinity-affecting framework (FR) mutation. """
