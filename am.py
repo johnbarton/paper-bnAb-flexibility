@@ -17,7 +17,7 @@ p_var        = 0.10                             # probability that a CDR mutatio
 p_cons       = 1.0 - p_var                      # probability that a CDR mutation affects the conserved (constant) region
 p_FR_lethal  = 0.80                             # probability that a framework (FR) mutation is lethal
 p_FR_silent  = 0.                               # probability that a FR mutation is silent
-p_FR_affect  = 1. - p_FR_lethal - p_FR_silent   # probability that a FR mutation affects affinity
+p_FR_affect  = 1. - p_FR_lethal - p_FR_silent   # probability that a FR mutation affects flexibility
 
 Ec_start     = 0               # starting value for Ec
 nb_Ag        = 10              # number of antigens
