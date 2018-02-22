@@ -2,7 +2,7 @@
 
 This folder contains supporting material for MD simulation results presented in
 
-### Ovchinnikov, Louveau, Barton, Karplus and Chakraborty, submitted to eLife, 2017
+### Ovchinnikov, Louveau, Barton, Karplus and Chakraborty
 
 Matlab data files and scripts for generating the figures are described below.
 

@@ -12,7 +12,7 @@ Victor Ovchinnikov<sup>1,\*</sup>, Joy E. Louveau<sup>2,\*</sup>, John P. Barton
 <sup>4</sup> Massachusetts Institute of Technology, Department of Physics (Cambridge, MA, United States)  
 <sup>5</sup> Massachusetts Institute of Technology, Institute for Medical Engineering and Science (Cambridge, MA, United States)  
 <sup>6</sup> Ragon Institute of MGH, MIT and Harvard (Cambridge, MA, United States)  
-<sup>7</sup> Université de Strasbourg, Laboratoire de Chimie Biophysique, ISIS (Strasbourg, France)
+<sup>7</sup> Université de Strasbourg, Laboratoire de Chimie Biophysique, ISIS (Strasbourg, France)  
 <sup>8</sup> Massachusetts Institute of Technology, Department of Biological Engineering (Cambridge, MA, United States)  
 <sup>9</sup> Massachusetts Institute of Technology, Department of Chemistry (Cambridge, MA, United States)  
 <sup>\*</sup> these authors contributed equally  
